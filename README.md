@@ -24,4 +24,4 @@ $this->template->alert(
 ```
 First parameter is the alert message and the second parameter is alert type (e.g. `info`, `warning` etc.) and these alerts will be available in the `alert` session variable as array under each alert type as key. You can access the alerts from controller or model using `$this->session->userdata('alert')` or in `$data['alerts']` from view files.
 
-For more details visit http://ghumkumar.com/codeigniter-template-library/
+
